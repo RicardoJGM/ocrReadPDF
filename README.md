@@ -19,7 +19,7 @@ El manejo eficiente de documentos en formato PDF que solo existen en forma impre
 - **Fitz**: Manipulacion de archivos a nivel código.
 
 ## Instalación y Uso
-1. Clona el repositorio desde [GitHub](https://github.com/tuusuario/nombre-proyecto).
+1. Clona el repositorio desde [GitHub](https://github.com/RicardoJGM/ocrReadPDF.git) con el comando git clone.
 2. Instala las dependencias necesarias con `pip install -r requirements.txt`.
 3. Ejecuta el script con el comando `python script_ocr.py <ruta_del_archivo_pdf>`.
 4. Los resultados se mostrarán en la consola o se guardarán en un archivo de salida especificado.
