@@ -1,4 +1,9 @@
-#Creado por: Ricardo de Jesús García Mejía - 200820130 - Ing. En Sistemas Computacionales
+#Creado por: 
+# Ricardo de Jesús García Mejía - 200820130 - Ing. En Sistemas Computacionales
+# Carlos Santamaría Solano - 200820130 - Ing. En Sistemas Computacionales
+# Diego Azpe Carmano - 200820130 - Ing. En Sistemas Computacionales
+# José Adolfo Jimenez Solis - 200820130 - Ing. En Sistemas Computacionales
+
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 import os
