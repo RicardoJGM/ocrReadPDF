@@ -90,7 +90,15 @@ def upload_file():
 
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
-        filepath = os.path.join('./', filename)
+        filepath = os.path.join('./Input_files/')
+
+        if not os.path.exists(filepath):
+            os.makedirs(filepath)
+            filepath = os.path.join('./Input_files/', filename)
+            print(f"Directorio '{filepath}' creado exitosamente.")
+        else:
+            filepath = os.path.join('./Input_files/', filename)
+
         file.save(filepath)
         
         archivos_generados = pdf2png(filepath)
