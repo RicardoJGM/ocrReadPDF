@@ -21,7 +21,7 @@ El manejo eficiente de documentos en formato PDF que solo existen en forma impre
 ## Instalación y Uso
 1. Clona el repositorio desde [GitHub](https://github.com/RicardoJGM/ocrReadPDF.git) con el comando `git clone`.
 2. Asegurarse de tener instalado pip con el siguiente comando `python -m ensurepip --upgrade`
-3. (Opcional) Crear un ambiente virtualizado en `python python -m venv <nombre_env>` y activarlo, en windows (`<ruta_env_creado>/Scripts/activate`); en linux (`source tutorial-env/bin/activate`)
+3. (Opcional) Crear un ambiente virtualizado en `python python -m venv <nombre_env>/env` y activarlo, en windows (`<ruta_env_creado>/env/Scripts/activate`); en linux (`source <ruta_env_creado>/env/bin/activate`)
 4. Dirigirse al directorio clonado e instalar las dependencias necesarias con `pip install -r requirements.txt`.
 5. Ejecutar el script de python `python readPDFwithOCR.py`.
 6. Desde un API Client, POSTMAN de preferencia, por método POST mandamos el archivo pdf a extraer el texto al endpoint siguiente: `http://localhost:5000/subir`.
