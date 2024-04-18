@@ -19,10 +19,17 @@ El manejo eficiente de documentos en formato PDF que solo existen en forma impre
 - **Fitz**: Manipulacion de archivos a nivel código.
 
 ## Instalación y Uso
-1. Clona el repositorio desde [GitHub](https://github.com/RicardoJGM/ocrReadPDF.git) con el comando git clone.
-2. Instala las dependencias necesarias con `pip install -r requirements.txt`.
-3. Ejecuta el script con el comando `python script_ocr.py <ruta_del_archivo_pdf>`.
-4. Los resultados se mostrarán en la consola o se guardarán en un archivo de salida especificado.
+1. Clona el repositorio desde [GitHub](https://github.com/RicardoJGM/ocrReadPDF.git) con el comando `git clone`.
+2. Asegurarse de tener instalado pip con el siguiente comando `python -m ensurepip --upgrade`
+3. Instala las dependencias necesarias con `pip install -r requirements.txt`.
+4. Dirigirse al directorio clonado y ejecutar el script de python `python readPDFwithOCR.py`.
+5. Desde un API Client, POSTMAN de preferencia, por método POST mandamos el archivo pdf a extraer el texto al endpoint siguiente: `http://localhost:5000/subir`.
+![image](https://github.com/RicardoJGM/ocrReadPDF/assets/112904134/602032a2-e237-4c77-9e12-d0a576badf3b)
+7. Los resultados se mostrarán en la consola o se guardarán en un archivo de salida especificado.
+![image](https://github.com/RicardoJGM/ocrReadPDF/assets/112904134/17bcb990-9c48-425d-9f72-a3300c9add5b)
+
+## Pseudocódigo
+![OCR](https://github.com/RicardoJGM/ocrReadPDF/assets/112904134/99465e7f-36c2-4c40-aa38-e21215547946)
 
 ## Contribuciones
 Si estás interesado en mejorar este proyecto, tus contribuciones son bienvenidas. Sigue estos pasos para contribuir:
