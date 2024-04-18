@@ -30,7 +30,7 @@ El manejo eficiente de documentos en formato PDF que solo existen en forma impre
 8. Los resultados se mostrarán en la consola o se guardarán en un archivo de salida especificado.
 ![image](https://github.com/RicardoJGM/ocrReadPDF/assets/112904134/17bcb990-9c48-425d-9f72-a3300c9add5b)
 
-## Pseudocódigo
+## Funcionamiento
 ![OCR](https://github.com/RicardoJGM/ocrReadPDF/assets/112904134/99465e7f-36c2-4c40-aa38-e21215547946)
 
 ## Contribuciones
